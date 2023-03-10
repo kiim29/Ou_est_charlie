@@ -33,7 +33,7 @@ out = v.draw_instance_predictions(outputs["instances"].to("cpu"))
 cv2_imshow(out.get_image()[:, :, ::-1])
 ```
 
-![alt text](https://raw.githubusercontent.com/kiim29/Ou_est_charlie/main/DetectedCharlie.jpg)
+![alt text](https://raw.githubusercontent.com/kiim29/Ou_est_charlie/main/DetectedCharlie.png)
 
 ## Entrainement du modèle  
 Se référer au notebook  
