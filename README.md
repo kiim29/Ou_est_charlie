@@ -23,7 +23,7 @@ predictor = DefaultPredictor(cfg)
 
 Detecter Charlie dans une image :
 ```
-im = cv2.imread('/content/drive/MyDrive/Où est Charlie/plancheCamRobot.png')
+im = cv2.imread('PATH_TO_THE_IMAGE')
 outputs = predictor(im) 
 v = Visualizer(im[:, :, ::-1],
                 metadata=waldo_metadata, 
@@ -32,6 +32,8 @@ v = Visualizer(im[:, :, ::-1],
 out = v.draw_instance_predictions(outputs["instances"].to("cpu"))
 cv2_imshow(out.get_image()[:, :, ::-1])
 ```
+
+![alt text](https://raw.githubusercontent.com/kiim29/Ou_est_charlie/main/DetectedCharlie.jpg)
 
 ## Entrainement du modèle  
 Se référer au notebook  
