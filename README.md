@@ -4,6 +4,7 @@ Projet de Deep Learning qui résout les jeux Où est Charlie en trouvant la posi
 ![alt text](https://raw.githubusercontent.com/kiim29/Ou_est_charlie/main/Charlie.jpg)
 
 Ce projet utilise un modèle Detectron2 entrainé avec torch pour retrouver Charlie.
+Retrouvez notre [notebook](https://colab.research.google.com/drive/1DR7ych_KQZmBN8uMdPDZxCob_TRR85JF?usp=sharing) ici !
 
 ## Dépendances
 Python: 3.9  
@@ -35,7 +36,7 @@ cv2_imshow(out.get_image()[:, :, ::-1])
 ![alt text](https://raw.githubusercontent.com/kiim29/Ou_est_charlie/main/DetectedCharlie.png)
 
 ## Entrainement du modèle  
-Se référer au notebook  
+Se référer au [notebook](https://colab.research.google.com/drive/1DR7ych_KQZmBN8uMdPDZxCob_TRR85JF?usp=sharing)  
 
 ## Imports dans le projet
 ```
