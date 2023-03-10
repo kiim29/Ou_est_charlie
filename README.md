@@ -21,7 +21,7 @@ cfg.MODEL.WEIGHTS = os.path.join("model_final.pth")  # path to the model
 predictor = DefaultPredictor(cfg)
 ```
 
-Detecter Charlie dans une image :
+Détecter Charlie dans une image :
 ```
 im = cv2.imread('PATH_TO_THE_IMAGE')
 outputs = predictor(im) 
