@@ -6,7 +6,7 @@ Projet de Deep Learning qui résout les jeux Où est Charlie en trouvant la posi
 Ce projet utilise un modèle Detectron2 entrainé avec torch pour retrouver Charlie.
 
 ## Requirements
-Python: 3.9
-torch:  1.13 
-cuda:  cu116 (V 11.8)
-detectron2: 0.6
+Python: 3.9  
+torch:  1.13  
+cuda:  cu116 (V 11.8)  
+detectron2: 0.6  
